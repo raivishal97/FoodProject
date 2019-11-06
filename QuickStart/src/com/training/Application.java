@@ -14,6 +14,11 @@ public class Application {
 			System.out.println(eachItem);
 		}
 		
+		Book java = new Book(102,"Head First Java");
+		
+		System.out.println(java.getBookName());
+		
+		
 	}
 
 }
