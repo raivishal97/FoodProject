@@ -10,6 +10,10 @@ public class Application {
 
 		nameList.forEach(System.out::println);
 		
+		for(String eachItem: nameList) {
+			System.out.println(eachItem);
+		}
+		
 	}
 
 }
